@@ -72,9 +72,6 @@ html::before {
               var(--lg9),
               var(--mtn2) center 60% / min(75vh, 75vw) repeat-x,
               linear-gradient(transparent 0%, hsla(var(--c2hsl), 0.75), transparent 90%),
-              linear-gradient(
-                transparent 30vh,           var(--c5) 52.5vh 57.5vh,
-                                                                         transparent 57.5vh
-              ),
+              linear-gradient(transparent 30vh, var(--c5) 52.5vh 57.5vh, transparent 57.5vh),
               radial-gradient(circle at center, var(--c3) 400%, var(--c2) 400%);
 }
